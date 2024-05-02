@@ -1,0 +1,33 @@
+li {
+    list-style-type: none;
+}
+.taskd{
+    border:1px solid white;
+    width: 10vw;
+    height: 10vh;
+}
+
+
+.scroller{
+    overflow: auto;
+
+  }
+
+  .scroller::-webkit-scrollbar {
+    width: 2px; 
+    height: 0px;
+  }
+    
+  .scroller::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+  .scroller::-webkit-scrollbar-thumb {
+    background-color: white; 
+    border-radius: 5px;
+  }
+
+  #main
+  {
+    padding-bottom: 5vw;
+  }
